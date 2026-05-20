@@ -1,1 +1,1 @@
-# MPP
+This repository contains the code for solving the MPP as was the 2024 CGSHOP challenge. The code included in the `ilp` folder, contains the ILP solver used for small instances. The code in the `rect` folder contains the algorithms which are used to solve the rectalinear instances. The code in the `ga` folder contains the remaining algorithms.

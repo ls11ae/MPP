@@ -1,0 +1,8 @@
+{
+  "metaheuristic": "none", //none, genetic, h4np
+  "algorithm-type": "direct-inner-fit",
+  "algorithm-specifics": {
+    "order": "max-val", //smallest, largest, min-val, max-val, val-area
+    "strategy": "min-dist" //bottom-left, bottom-right, top-left, top-right, min-dist, topos
+  }
+}

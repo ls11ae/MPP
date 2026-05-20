@@ -1,0 +1,14 @@
+build
+build_test
+.vscode
+instance
+instance_images
+debugprint
+Solutions
+debug
+*.sh
+python_tools/*.zip
+bash_tools/solutions
+bash_tools/instances
+!bash_tools/*.sh
+bash_tools/config.json

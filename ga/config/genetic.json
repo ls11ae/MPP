@@ -1,0 +1,17 @@
+{
+  "metaheuristic": "genetic", //none, genetic, h4np
+  "algorithm-type": "direct-inner-fit", //direct-inner-fit, inner-fit-raster
+  "meta-specifics": {
+    "population-size": 100,
+    "generations": 500,
+    "mutation-rate": 0.1,
+    "crossover-rate": 0.7,
+    "mutation-type": "single-swap",
+    "crossover-type": "OX", //order-crossover(OX)
+    "optimize-strategy": true //whether or not to randomize algorithm packing strategy
+  },
+  "algorithm-specifics": {
+    //only used if optimize-strategy is set to false
+    "strategy": "bottom-left" //bottom-left, bottom-right, top-left, top-right, min-dist, topos
+  }
+}

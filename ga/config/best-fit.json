@@ -1,0 +1,8 @@
+{
+  "metaheuristic": "none", //none, genetic, h4np
+  "algorithm-type": "best-fit",
+  "algorithm-specifics": 
+  {
+    "strategy": "min-dist" //bottom-left, bottom-right, top-left, top-right, min-dist, topos
+  }
+}
